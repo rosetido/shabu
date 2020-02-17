@@ -9,11 +9,25 @@ html {
   padding: 0;
 }
 
+
+
+body {
+  background-image : url("https://www.img.in.th/images/4e5faac7e7f39a733e6fe536574feb99.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 200px;
+  background-attachment: fixed;
+}
+
+
+
 body {
   font-family: system-ui, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, sans-serif;
+  
   min-height: 100vh;
   max-width: 1040px;
   margin: 0 auto;
+  
 }
 
 .add-item::placeholder {
@@ -25,6 +39,8 @@ body {
 .remove-item:focus {
   border-bottom: solid 2px hsl(220, 70%, 60%);
 }
+
+
 .remove-item {
   background: transparent;
   outline: none;
@@ -78,6 +94,7 @@ body {
   margin-top: 50px;
 }
 
+
 .form-input {
   color: hsla(220, 84%, 14%, 0.6);
   padding: 6px 8px;
@@ -97,7 +114,6 @@ body {
 .list-item {
   padding: 32px 16px;
   font-size: 1.25em;
-  font-weight: 600;
   width: 100%;
   display: flex;
   justify-content: space-between;
